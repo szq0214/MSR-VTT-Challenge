@@ -15,14 +15,14 @@ The original version was ranked 4th in human evaluation and ranked 5th in the au
 This code is based on NeuralTalk2 (https://github.com/karpathy/neuraltalk2).
 
 ## Table of Contents
-0. [Usage](#usage)
-0. [Train challenge models](#Train-original-model)
-0. [Test challenge models](#Test-original-model)
-0. [Challenge results](#Original-results)
-0. [Train updated models](#Train-updated-model)
-0. [Updated results](#Updated-results)
-0. [Two improvements for NeuralTalk2](#improvements)
-0. [Contact](#contact)
+1. [Usage](#usage)
+2. [Train challenge models](#Train-original-model)
+3. [Test challenge models](#Test-original-model)
+4. [Challenge results](#Original-results)
+5. [Train updated models](#Train-updated-model)
+6. [Updated results](#Updated-results)
+7. [Two improvements for NeuralTalk2](#improvements)
+8. [Contact](#contact)
 
 ## Usage 
 0. Clone our repository:
