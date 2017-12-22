@@ -31,7 +31,7 @@ This code is based on NeuralTalk2 (https://github.com/karpathy/neuraltalk2).
   git clone https://github.com/szq0214/MSR-VTT-Challenge.git
   ```
   
-1. Our requirements is similar as [NeuralTalk2](https://github.com/karpathy/neuraltalk2). You can follow the instructions there or do the following instructions.
+1. Our requirements are similar as [NeuralTalk2](https://github.com/karpathy/neuraltalk2). You can follow the instructions there or do the following instructions.
   
 ### Requirements (modified from [NeuralTalk2](https://github.com/karpathy/neuraltalk2))
 
