@@ -10,7 +10,7 @@ The original version was ranked 4th in human evaluation and ranked 5th in the au
 **(Note that we only used a single model (no ensemble) and did not use any category or audio information provided by the dataset in this version.)**
 
 
-The updated version is part of the [DenseVidCap](https://arxiv.org/abs/1704.01502) project that combines the audio features, category information and other techniques, which achieves higher scores.
+**The updated version is part of the [DenseVidCap](https://arxiv.org/abs/1704.01502) project that combines the audio features, category information and other techniques, which achieves higher scores.**
 
 This code is based on NeuralTalk2 (https://github.com/karpathy/neuraltalk2).
 
@@ -204,7 +204,7 @@ If you find this helps your research, please consider citing:
 ## Contact
 Zhiqiang Shen (zhiqiangshen0214@gmail.com) 
 
-Any discussions, suggestions and questions are welcome!
+Any discussions and suggestions are welcome!
 
 
 
