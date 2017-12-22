@@ -16,11 +16,11 @@ This code is based on NeuralTalk2 (https://github.com/karpathy/neuraltalk2).
 
 ## Table of Contents
 0. [Usage](#usage)
-0. [Train challenge models](#Train_original_model)
-0. [Test challenge models](#Test_original_model)
-0. [Challenge results](#Original_results)
-0. [Train updated models](#Train_updated_model)
-0. [Updated results](#Updated_results)
+0. [Train challenge models](#Train-original-model)
+0. [Test challenge models](#Test-original-model)
+0. [Challenge results](#Original-results)
+0. [Train updated models](#Train-updated-model)
+0. [Updated results](#Updated-results)
 0. [Two improvements for NeuralTalk2](#improvements)
 0. [Contact](#contact)
 
@@ -175,7 +175,6 @@ evaluating validation performance... 5/71 (3.456113)
   Set options `-input_feature_dim 19556`, `-input_h5 data_lexical_C3D_audio.h5`, `-input_json data_lexical_C3D_audio.json` and follow steps above.
 
 ## Updated results
-
 Performance on the validation set:
 
 Method | BLEU@4 | METEOR | CIDEr | ROUGE-L 
