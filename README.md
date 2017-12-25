@@ -201,7 +201,7 @@ If you find this helps your research, please consider citing:
            }
 
 ## Contact
-Zhiqiang Shen (zhiqiangshen0214@gmail.com) 
+Zhiqiang Shen (zhiqiangshen0214 at gmail.com) 
 
 Any discussions and suggestions are welcome!
 
