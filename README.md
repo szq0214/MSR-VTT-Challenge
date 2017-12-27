@@ -74,7 +74,7 @@ Finally, you will also need to install [torch-hdf5](https://github.com/deepmind/
 
 
 ## Train challenge models
-1. Set training data, json file and options in `mean_pool_MSR_VTT_train.lua` file. Use `-input_h5 data_augmentation.h5`, `-input_json data_augmentation.json`, `-rnn_size 1024`, `-input_encoding_size 1024`,  `-update_iter 4`, `-learning_rate 4e-4`, `-beam_size 1`, `-train_split train`, `-eval_split val`, `-val_images_use 497`, `-save_checkpoint_every 250`, `-language_eval 1` option. options
+1. Set training data, json file and options in `mean_pool_MSR_VTT_train.lua` file. Use `-input_h5 data_augmentation.h5`, `-input_json data_augmentation.json`, `-rnn_size 1024`, `-input_encoding_size 1024`,  `-update_iter 4`, `-learning_rate 4e-4`, `-beam_size 1`, `-train_split train`, `-eval_split val`, `-val_images_use 497`, `-save_checkpoint_every 250`, `-language_eval 1` options.
 2. Set feature dimension `-input_feature_dim 27648 `.
 
  >The feature we used includs: 1) ResNet (2048); 2) VGG19 (4096); 3) Places-VGG16 (4096); 4) Places-GoogLeNet (1024); 5) EventNet (4096); 6) C3D\_2 (4096); 7) C3D\_8 (4096); 8) C3D\_16 (4096). The total feature dimension is 27648.
@@ -89,7 +89,7 @@ Finally, you will also need to install [torch-hdf5](https://github.com/deepmind/
 
 ## Test challenge models
 1. Set test data, json file and options in `eval_MSR_VTT.lua` file. Use 
-`-input_feature_dim 27648 `, `-model model_id_MSR_VTT_challenge.t7`, `-num_images 2990`, `-language_eval 1`, `-input_h5 data_augmentation_test.h5`, `-input_json data_augmentation_test.json`, `-beam_size 2`, `-split val` options
+`-input_feature_dim 27648 `, `-model model_id_MSR_VTT_challenge.t7`, `-num_images 2990`, `-language_eval 1`, `-input_h5 data_augmentation_test.h5`, `-input_json data_augmentation_test.json`, `-beam_size 2`, `-split val` options.
 
 2. Test the model using
 
@@ -125,7 +125,7 @@ Fudan-ILC (test set)|3.185 |2.999 | 2.979
 
   * Train language models for category_X (replace X below with 0,1,...,19 to train 20 category-wise models)
   
-     1) Set the training data, json file and options. Use `-input_feature_dim 11264`, `-input_h5 data_lexical.h5`, `-input_json data_lexical.json`, `-rnn_size 512`  `-update_iter 1`, `-learning_rate 2e-4`, `-beam_size 1`, `-train_split train_X`, `-eval_split val_X`, `-val_images_use XXX`, `-save_checkpoint_every 100`, `-checkpoint_path lexical`, `-language_eval 1`, `-id _lexical_X` options
+     1) Set the training data, json file and options. Use `-input_feature_dim 11264`, `-input_h5 data_lexical.h5`, `-input_json data_lexical.json`, `-rnn_size 512`  `-update_iter 1`, `-learning_rate 2e-4`, `-beam_size 1`, `-train_split train_X`, `-eval_split val_X`, `-val_images_use XXX`, `-save_checkpoint_every 100`, `-checkpoint_path lexical`, `-language_eval 1`, `-id _lexical_X` options.
     >If you want to evaluate the whole validation set, please make `-val_images_use` larger than the number of examples in each category. For convenience, you can set it with a large number like 1000 for all categories.
   
      >In the challenge model, we use two linear layers to embed the input features, while for efficiency, we apply single layer in the updated model. The embedding parameters are learned jointly with the language model. You can modify line 24~31 in `misc/net_utils.lua` to
