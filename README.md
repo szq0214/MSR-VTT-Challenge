@@ -31,8 +31,6 @@ This code is based on NeuralTalk2 (https://github.com/karpathy/neuraltalk2).
   git clone https://github.com/szq0214/MSR-VTT-Challenge.git
   ```
   
-1. Our requirements are similar as [NeuralTalk2](https://github.com/karpathy/neuraltalk2). You can follow the instructions there or do the following instructions.
-  
 ### Requirements (modified from [NeuralTalk2](https://github.com/karpathy/neuraltalk2))
 
 This code is written in Lua and requires [Torch](http://torch.ch/). If you're on Ubuntu, installing Torch in your home directory may look something like: 
@@ -68,9 +66,9 @@ Finally, you will also need to install [torch-hdf5](https://github.com/deepmind/
 
 ### Other preparations
 
-3. Download training and validation [features](https://drive.google.com/open?id=0B4cvsEOB5eUCckFvOU8zb0RVWTg) (including the updated version) and put them into `root` directory of this project. You can also download our pre-trained [model](https://drive.google.com/open?id=0B4cvsEOB5eUCZU5UQ01vUnU4RUE) here which is used in the challenge.
-4. Download the [coco-caption code](https://github.com/tylin/coco-caption) into `coco-caption` directory.
-5. Download the MSR-VTT [annotations](https://drive.google.com/open?id=0B4cvsEOB5eUCM0Q2TFdvX0ZjLWc) into `coco-caption/annotations` directory.
+2. Download training and validation [features](https://drive.google.com/open?id=0B4cvsEOB5eUCckFvOU8zb0RVWTg) (including the updated version) and put them into `root` directory of this project. You can also download our pre-trained [model](https://drive.google.com/open?id=0B4cvsEOB5eUCZU5UQ01vUnU4RUE) here which is used in the challenge.
+3. Download the [coco-caption code](https://github.com/tylin/coco-caption) into `coco-caption` directory.
+4. Download the MSR-VTT [annotations](https://drive.google.com/open?id=0B4cvsEOB5eUCM0Q2TFdvX0ZjLWc) into `coco-caption/annotations` directory.
 
 
 ## Train challenge models
