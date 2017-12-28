@@ -25,7 +25,7 @@ This code is based on NeuralTalk2 (https://github.com/karpathy/neuraltalk2).
 8. [Contact](#contact)
 
 ## Usage 
-0. Clone our repository:
+1. Clone our repository:
 
   ```shell
   git clone https://github.com/szq0214/MSR-VTT-Challenge.git
